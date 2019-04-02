@@ -1,0 +1,104 @@
+/* Global */
+.bacground_grey, .navbar-default{
+    background-color: #7c7875;
+}
+.text_white{
+    background-color: #fcfbf9;
+}
+.text_red{
+    background-color: #802f30;
+}
+.text_darkgrey, .nav li a:hover{
+    background-color: #27353a;
+}
+.background_teal{
+    background-color: #7d9392;
+}
+
+/* Navbar Start */
+
+.logo {
+    height: 50px;
+    width: 50px;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover {
+    color: #fcfbf9;
+    background-color: #27353a;
+}
+nav.navbar{
+    position: absolute;
+    top: 100;
+    right: 0;
+    left: 0;
+    z-index: 20;
+
+}
+
+.wrap{
+    min-height: 100vh;
+}
+
+.navbar-default.navbar-nave>li> a {
+    color: #fcfbf9;
+    text-shadow: 1px 1px 2px #27353a;
+}
+.navbar-default .navbar-nav li a:hover,
+.navbar-default .navbar-nav li a:focus{
+    color: #802f30;
+    background-color: #27353a;
+}
+/* Navbar End */
+/* Top Start */
+/* Carosel Start */
+.carousel{
+    margin-top: 50px;
+    margin-bottom: 60px;
+    padding: 0px;
+}
+
+.carousel-caption{
+    z-index: 10;
+    padding-bottom: 60px;
+}
+
+.carousel-inner .item{
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+}
+
+.main_img1 {
+    background-image: url('../images/ljcoffee.jpg');
+}
+.main_img2 {
+    background-image: url('../imgages/briefcase.jpg');
+}
+
+.main_img3 {
+    background-image: url('../imgages/oldletters.jpg');
+}
+
+.main_logo {
+    max-height: 300px;
+}
+
+.carousel-caption p{
+    color: #fcfbf9;
+    font-size: 16px;
+}
+
+.btn-primary{
+    color:#fcfbf9;
+    background-color: #802f30;
+}
+
+/* Carosel End */
+/* Top End */
+/* Middle Start */
+/* Middle End */
+/* Bottom Start */
+/* Bottom End */
