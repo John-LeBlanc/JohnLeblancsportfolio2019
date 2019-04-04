@@ -1,18 +1,36 @@
 /* Global */
-.bacground_grey, .navbar-default{
+.bacground_grey, .navbar-default .navbar-nav>li>a {
     background-color: #7c7875;
 }
-.text_white{
+
+.background_white, 
+.navbar-default .navbar-nav>li>a{
     background-color: #fcfbf9;
 }
-.text_red{
+
+.text-white, .navbar-right>li>a, #navbar {
+    color: #fcfbf9;
+}
+.background_red{
     background-color: #802f30;
 }
-.text_darkgrey, .nav li a:hover{
+.text_red {
+    color: #802f30;
+}
+
+.background_darkgrey, .nav li a:hover{
     background-color: #27353a;
 }
-.background_teal{
+.background_teal, .navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a:focus {
     background-color: #7d9392;
+}
+.middlebox{
+    margin: 0 auto;
+    float: none;
+    background-color: rgba(45, 51, 54, 0.6);
+    padding: 10px;
+    margin-top: 145px;
+    border-radius: 15px;
 }
 
 /* Navbar Start */
@@ -41,15 +59,6 @@ nav.navbar{
     min-height: 100vh;
 }
 
-.navbar-default.navbar-nave>li> a {
-    color: #fcfbf9;
-    text-shadow: 1px 1px 2px #27353a;
-}
-.navbar-default .navbar-nav li a:hover,
-.navbar-default .navbar-nav li a:focus{
-    color: #802f30;
-    background-color: #27353a;
-}
 /* Navbar End */
 /* Top Start */
 /* Carosel Start */
@@ -75,11 +84,11 @@ nav.navbar{
     background-image: url('../images/ljcoffee.jpg');
 }
 .main_img2 {
-    background-image: url('../imgages/briefcase.jpg');
+    background-image: url('../images/briefcase.jpg');
 }
 
 .main_img3 {
-    background-image: url('../imgages/oldletters.jpg');
+    background-image: url('../images/oldletters.jpg');
 }
 
 .main_logo {
@@ -99,6 +108,21 @@ nav.navbar{
 /* Carosel End */
 /* Top End */
 /* Middle Start */
+#portfolio {
+    background-image: url('../images/portfoliocase.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#portfolio .center {
+    margin: 0 auto;
+    float: none;
+    background-color: rgba(45, 51, 54, 0.6);
+    padding: 10px;
+    margin-top: 145px;
+    border-radius: 15px;
+}
 /* Middle End */
 /* Bottom Start */
+.socialbox
 /* Bottom End */
