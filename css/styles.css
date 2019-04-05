@@ -114,6 +114,10 @@ nav.navbar{
     background-size: cover;
     background-attachment: fixed;
 }
+.photos{
+max-height: 300px;
+max-width: 300px;
+}
 
 #portfolio .center {
     margin: 0 auto;
