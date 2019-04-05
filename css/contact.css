@@ -1,3 +1,21 @@
+nav{
+    position: fixed;
+    top: 0px;
+}
 #contact_fine_print {
     color: #802f30;
+}
+#contact_middle{
+    background-image: url('../images/oldletters.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#contact{
+    margin-top: 50px;
+    max-height: 100vh;
+}
+
+.socialbox{
+    margin-top:10px;
 }

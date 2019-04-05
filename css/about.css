@@ -45,9 +45,14 @@
 
 /* Carosel End */
 /* Top End */
+#about_top{
+    background-image: url('../images/ljcode.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
 /* Middle Start */
 #about_middle {
-    background-image: url('../images/oldletters.jpg');
+    background-image: url('../images/briefcase.jpg');
     background-size: cover;
     background-attachment: fixed;
 }
