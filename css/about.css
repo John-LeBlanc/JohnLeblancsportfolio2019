@@ -8,7 +8,7 @@
 
 .carousel-caption{
     z-index: 10;
-    padding-bottom: 60px;
+    padding-bottom: 10px;
 }
 
 .carousel-inner .item{
@@ -53,6 +53,9 @@
 }
 
 /* Middle End */
+.workexp{
+    margin: 0 auto;
+}
 /* Bottom Start */
-.socialbox
+.socialbox{}
 /* Bottom End */
