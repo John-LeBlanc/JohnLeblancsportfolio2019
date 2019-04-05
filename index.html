@@ -11,12 +11,123 @@
 </head>
 <body>
     <!-- Navbar Start -->
+    <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button class="navbar-toggle collapsed" data-toggle="collapse" type="button" data-target="#navbar">
+                        <span class="sr-only">Toggle Navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="">
+                        <img class="logo" src="images/logo.png" alt="logo">
+                    </a>
+                </div>
+                <div class="collapse navbar-collapse" id="navbar">
+                        <ul class="nav navbar-nav navbar-right">
+                                <li class="active text-white">
+                                    <a href="#">home<span class="sr-only">(current)</span></a>
+                                </li>
+                                <li>
+                                    <a class="text-white" href="about.html">My story</a>
+                                </li>
+                                <li>
+                                    <a class="text-white" href="contact.html">Contact Me</a>
+                                </li>
+                            </ul>
+    
+                </div>
+            </div>
+        </nav>
+    
     <!-- Navbar End -->
     <!-- Top Start -->
+    <!-- Carosel Start -->
+    <div class="container-fluid wrap">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li class="active" data-target="myCarousel" data-slide-to="0"></li>
+                    <li data-target="myCarousel" data-slide-to="1"></li>
+                    <li data-target="myCarousel" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="item main_img1 active">
+                        <div class="carousel-caption">
+                            <img src="images/logo.png" alt="logo" class="img-responsive main_logo center-block">
+                        </div>
+                    </div>
+                    <div class="item main_img2">
+                        <div class="carousel-caption">
+                            <h1>My Story</h1>
+                            <p>Who is the man behind this digital curtain?</p>
+                            <a href="about.html" class="btn btn-lg btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="item main_img3">
+                        <div class="carousel-caption">
+                            <h1>Contact Me</h1>
+                            <p>Want to know the best way to get in touch with me?</p>
+                            <a href="contact.html" class="btn btn-lg btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+                        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                          </a>
+                          <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+    </div>
+    <!-- Carosel End -->
     <!-- Top End-->
     <!-- Middle Start -->
+    <div id="portfolio" class="container-fluid wrap">
+            <div class="row text-center">
+                <div class="col-sm-10 center">
+                    <h1 class="Custom_text_shadow">Recent Work</h1>
+                    <div class="row">
+                        <div class="col-sm-6"><img src="images/Image 4-4-19 at 5.44 PM.jpg" alt=""><a href="https://john-leblanc.github.io/mfw-restaurante/">Restaurante site</a></div>
+                        <div class="col-sm-6"><img src="images/Image 4-4-19 at 6.23 PM.jpg" alt=""><a href="https://john-leblanc.github.io/Leblanc-Creative/">LeBlancCreative 1.0</a></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6"><img src="" alt=""><a href="">Test woodworking site</a></div>
+                        <div class="col-sm-6"><img src="" alt=""><a href="">Petstore</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
     <!-- Middle End-->
     <!-- Bottom Start -->
+<div class="container-fluid socialbox">
+    <div class="row">
+        <div class="col-sm-6">
+            <div><i class="fab fa-github"></i></div>
+            <div><a href="https://github.com/John-LeBlanc"></a>Github</div>
+        </div>
+        <div class="col-sm-6">
+            <div><i class="fab fa-linkedin"></i></div>
+            <div><a href="https://www.linkedin.com/in/johnlebblancfresno/"></a>Linkedin</div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-6">
+            <div><i class="fab fa-youtube"></i></div>
+            <div><a href="https://www.youtube.com/user/Thatoneguywithafro"></a>Youtube:Thatoneguywithafro</div>
+        </div>
+        <div class="col-sm-6">
+            <div><i class="fab fa-instagram"></i></div>
+            <div><a href="https://www.instagram.com/leblancreative/"></a>Instagram @leblancreative</div>
+        </div>
+    </div>
+</div>
     <!-- Bottom End-->
+    <!-- javascript	 -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
 </body>
 </html>
